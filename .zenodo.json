@@ -1,0 +1,35 @@
+{
+  "title": "MATLAB code for 'Moving Without Making Progress: Shorter Forward Runs Explain the Loss of Net Advance in a Model of Swedish Mutant Amyloid Precursor Protein Transport'",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Kuznetsov, Andrey V",
+      "affiliation": "Department of Mechanical and Aerospace Engineering, North Carolina State University, Raleigh, NC 27695-7910, USA",
+      "orcid": "0000-0002-2692-6907"
+    }
+  ],
+  "description": "<p>MATLAB implementation of a five-state stochastic model of bidirectional axonal cargo transport and of its continuum advection-reaction counterpart, applied to wild-type and Swedish mutant amyloid precursor protein (APP), Rab5 endosomes and lysosomes in human neurons.</p><p>The package contains the trajectory simulator with the observation model that reproduces the published selection of tracks and frames, the fitting routines, the fitted parameter sets, the steady-state spatial model with turnover, the fluorescence model with a soma-derived tagged product, the analysis scripts with their saved outputs, the scripts that write Figs. 1-5 of the paper, and a README documenting every file. One master script, run_short_all, reproduces the figures and the quoted numbers from the saved fits.</p><p>The trajectory statistics and fluorescence profiles are digitized from the published figures of Feole et al. (2024, J Biol Chem 300, 107137) and its Supporting Information; the digitized values are included, the figure panels are not.</p><p>Base MATLAB only, no toolboxes; developed and run on R2026a.</p>",
+  "license": "mit-license",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "axonal transport",
+    "amyloid precursor protein",
+    "Swedish mutation",
+    "Alzheimer's disease",
+    "stochastic model",
+    "Markov chain",
+    "observation model",
+    "advection-reaction model",
+    "mathematical modeling",
+    "MATLAB"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.jbc.2024.107137",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}

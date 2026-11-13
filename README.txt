@@ -117,6 +117,11 @@ Not called by run_short_all
                          the file also holds use the reference vectors and are not
                          quoted.
 
+Repository metadata
+  LICENSE                MIT licence
+  CITATION.cff           how to cite this code
+  .zenodo.json           metadata for the Zenodo archive
+
 Saved results
   p211_fitted.mat        reference vectors (starting points; lysosomes with APPswe)
   p211_refit12_1..6.mat  corrected fits used in the paper
