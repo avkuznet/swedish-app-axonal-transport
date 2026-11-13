@@ -20,7 +20,15 @@ authors:
 version: v1.0.0
 date-released: 2026-11-13
 license: MIT
+doi: 10.5281/zenodo.24200516
 repository-code: "https://github.com/avkuznet/swedish-app-axonal-transport"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24200516
+    description: Version v1.0.0 of this software
+  - type: doi
+    value: 10.5281/zenodo.24200515
+    description: Concept DOI, always resolving to the latest version
 keywords:
   - axonal transport
   - amyloid precursor protein
