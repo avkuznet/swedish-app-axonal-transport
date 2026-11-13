@@ -1,0 +1,35 @@
+===========================================================
+ P211  replication of the APP drift contrast in unfitted recordings of Feole et al. (2024)
+ 2026-11-13 00:40   MATLAB 26.1.0.3276743 (R2026a) Update 3
+===========================================================
+
+(1) directional track excess fA - fR  (classes renormalised to sum to one)
+   APPwt   Fig. 1D, lentiviral, 2 fps, 30 s (fitted)     fA 0.450 fS 0.360 fR 0.190   excess +0.260
+   APPwt   Fig. S2C GFP, 2 fps, 30 s                     fA 0.397 fS 0.469 fR 0.134   excess +0.263
+   APPwt   Fig. S2C tRFP, 2 fps, 30 s                    fA 0.323 fS 0.535 fR 0.142   excess +0.181
+   APPwt   Fig. S1B, plasmid, 4 fps, 60 s                fA 0.320 fS 0.590 fR 0.090   excess +0.230
+   APPwt   Fig. S3B, microfluidic, distal axons          fA 0.401 fS 0.433 fR 0.167   excess +0.234
+   APPswe  Fig. 1D, lentiviral, 2 fps, 30 s (fitted)     fA 0.110 fS 0.780 fR 0.110   excess +0.000
+   APPswe  Fig. S1B, plasmid, 4 fps, 60 s                fA 0.150 fS 0.720 fR 0.130   excess +0.020
+   APPswe  Fig. S3B, microfluidic, distal axons          fA 0.000 fS 0.856 fR 0.144   excess -0.144
+   range, APPwt  +0.181 to +0.263;  APPswe -0.144 to +0.020
+   reference chain APPwt  excess +0.298 at 2 fps, 30 s; +0.405 at 4 fps, 60 s   (v_eff +0.1239 um/s)
+   reference chain APPswe excess +0.008 at 2 fps, 30 s; +0.013 at 4 fps, 60 s   (v_eff +0.0012 um/s)
+
+(2) summary-statistic drift for the fitted recordings (Sec. 3.2)
+   APPwt   (1 - 0.36)(0.430 x 1.10 - 0.295 x 1.05) = +0.1045 um/s
+   APPswe  (1 - 0.78)(0.375 x 0.65 - 0.375 x 0.75) = -0.0082 um/s
+
+(3) Fig. S1: track classes (S1B) weighted by per-particle average velocities (S1C, n = 10 per class)
+   APPwt   anterograde [Q1 median Q3] = [0.19 0.33 0.67], retrograde [0.11 0.18 0.38] um/s
+           drift: median-based +0.091, quartile-mean +0.107, quartile range [+0.026, +0.206] um/s
+   APPswe  anterograde [Q1 median Q3] = [0.17 0.28 0.65], retrograde [0.15 0.83 2.22] um/s
+           drift: median-based -0.066, quartile-mean -0.084, quartile range [-0.263, +0.077] um/s
+
+(4) estimator (3) on simulated tracks of the reference chains (p211_fitted.mat) at 4 fps, 60 s
+   APPwt   v_eff +0.1237 | mean net velocity of all tracks +0.1237 | fA mean - fR mean +0.1237 | median-based +0.1147 | quartile-mean +0.1175 um/s
+           10 particles per class: median-based 95% range [+0.056, +0.185], quartile-mean [+0.066, +0.179]; P(estimate < 0) = 0.00 / 0.00
+           fraction of draws at or below the Fig. S1 value: 0.233 (median-based), 0.353 (quartile-mean)
+   APPswe  v_eff +0.0011 | mean net velocity of all tracks +0.0011 | fA mean - fR mean +0.0011 | median-based +0.0009 | quartile-mean +0.0010 um/s
+           10 particles per class: median-based 95% range [-0.003, +0.005], quartile-mean [-0.003, +0.005]; P(estimate < 0) = 0.32 / 0.29
+           fraction of draws at or below the Fig. S1 value: 0.000 (median-based), 0.000 (quartile-mean)

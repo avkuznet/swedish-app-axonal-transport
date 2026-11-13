@@ -1,0 +1,4 @@
+P211  reduced chains for Rab5 (corrected targets: 8 distinct, 7 independent)   2026-11-13 00:39
+3-state A,R,P (6 constants)  objective 0.0444 / 0.1512  rms 7.4% / 13.7% | kpr ratio 1.30 | event-flux ratio 1.12 | v_eff -0.0182 / -0.0017
+4-state A,R,P,S (8)          objective 0.0445 / 0.1310  rms 7.5% / 12.8% | kpr ratio 2.13 | event-flux ratio 1.37 | v_eff -0.0160 / +0.0063
+5-state (10)                 objective 0.0447 / 0.1163  rms 7.5% / 12.1% | kpr ratio 2.30 | event-flux ratio 1.27 | v_eff -0.0155 / +0.0022

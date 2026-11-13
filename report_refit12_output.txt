@@ -1,0 +1,113 @@
+P211  corrected refits (pooled targets, exhaustive classes; APP: open-population sampling)
+2026-11-13 00:39   MATLAB 26.1.0.3276743 (R2026a) Update 3
+
+APPwt         reference vector 1.5421 -> best 0.0956 (refit)   rms 8.6%
+   va 1.070 vr 1.745 | kap 0.242 kpa 0.625 krp 6.02 kpr 5.36 kpd 2.27 kdp 1.25 kds 0.00194 ksd 0.001
+   occupancy 0.264 0.091 0.102 0.185 0.357   v_eff (analytic) +0.1238 um/s
+   open-population composition 0.269 0.093 0.104 0.189 0.345 
+     time antero            meas   0.430  model   0.420  (-2%)
+     time retro             meas   0.295  model   0.293  (-1%)
+     time pause             meas   0.275  model   0.287  (+4%)
+     tracks antero          meas   0.450  model   0.471  (+5%)
+     tracks stationary      meas   0.360  model   0.351  (-2%)
+     tracks retro           meas   0.190  model   0.178  (-6%)
+     track length antero    meas  24.000  model  21.349  (-11%)
+     track length retro     meas  13.000  model  15.899  (+22%)
+     pause freq antero      meas   1.700  model   1.733  (+2%)
+     pause freq retro       meas   2.500  model   2.637  (+5%)
+     reversal freq          meas   1.700  model   1.488  (-12%)
+     seg speed antero       meas   1.100  model   1.070  (-3%)
+     seg speed retro        meas   1.050  model   0.977  (-7%)
+
+APPswe        reference vector 4.3155 -> best 0.0548 (refit)   rms 6.5%
+   va 0.629 vr 0.630 | kap 1.61 kpa 1.13 krp 2.07 kpr 1.37 kpd 0.0109 kdp 0.0124 kds 0.00391 ksd 0.000398
+   occupancy 0.059 0.056 0.084 0.074 0.727   v_eff (analytic) +0.0018 um/s
+   open-population composition 0.067 0.063 0.095 0.080 0.696 
+     time antero            meas   0.375  model   0.368  (-2%)
+     time retro             meas   0.375  model   0.374  (-0%)
+     time pause             meas   0.250  model   0.257  (+3%)
+     tracks antero          meas   0.110  model   0.113  (+3%)
+     tracks stationary      meas   0.780  model   0.785  (+1%)
+     tracks retro           meas   0.110  model   0.102  (-8%)
+     track length antero    meas  10.000  model  10.208  (+2%)
+     track length retro     meas   9.000  model   9.933  (+10%)
+     pause freq antero      meas   2.700  model   2.813  (+4%)
+     pause freq retro       meas   2.600  model   2.814  (+8%)
+     reversal freq          meas   3.850  model   3.790  (-2%)
+     seg speed antero       meas   0.650  model   0.629  (-3%)
+     seg speed retro        meas   0.750  model   0.630  (-16%)
+
+Rab5          reference vector 0.0548 -> best 0.0447 (refit)   rms 7.5%
+   va 0.230 vr 0.208 | kap 1.28 kpa 1.05 krp 1.37 kpr 1.61 kpd 0.00101 kdp 0.0115 kds 0.00421 ksd 0.000855
+   occupancy 0.235 0.333 0.284 0.025 0.122   v_eff (analytic) -0.0155 um/s
+     time antero            meas   0.290  model   0.280  (-3%)
+     time retro             meas   0.400  model   0.392  (-2%)
+     time pause             meas   0.310  model   0.328  (+6%)
+     reversal freq          meas   2.800  model   2.742  (-2%)
+     seg speed antero       meas   0.250  model   0.230  (-8%)
+     seg speed retro        meas   0.230  model   0.208  (-9%)
+     track length pooled    meas   3.600  model   4.151  (+15%)
+     pause freq pooled      meas   3.800  model   3.748  (-1%)
+
+Rab5+APPswe   reference vector 0.1386 -> best 0.1163 (refit)   rms 12.1%
+   va 0.279 vr 0.209 | kap 1.55 kpa 2.93 krp 1.51 kpr 3.7 kpd 2.18 kdp 2.45 kds 0.00103 ksd 0.00742
+   occupancy 0.297 0.386 0.157 0.140 0.019   v_eff (analytic) +0.0022 um/s
+     time antero            meas   0.342  model   0.320  (-6%)
+     time retro             meas   0.382  model   0.380  (-0%)
+     time pause             meas   0.276  model   0.300  (+9%)
+     reversal freq          meas   3.100  model   3.199  (+3%)
+     seg speed antero       meas   0.290  model   0.267  (-8%)
+     seg speed retro        meas   0.240  model   0.209  (-13%)
+     track length pooled    meas   3.600  model   4.613  (+28%)
+     pause freq pooled      meas   3.200  model   3.327  (+4%)
+
+Lyso+APPwt    reference vector 0.0702 -> best 0.0642 (refit)   rms 7.3%
+   va 1.752 vr 1.347 | kap 2.56 kpa 0.871 krp 0.376 kpr 0.205 kpd 2.75e-05 kdp 0.000203 kds 1.15e-05 ksd 7.98e-07
+   occupancy 0.086 0.137 0.252 0.034 0.492   v_eff (analytic) -0.0347 um/s
+     time antero            meas   0.337  model   0.330  (-2%)
+     time retro             meas   0.342  model   0.326  (-5%)
+     time pause             meas   0.321  model   0.344  (+7%)
+     tracks antero          meas   0.200  model   0.195  (-2%)
+     tracks stationary      meas   0.540  model   0.536  (-1%)
+     tracks retro           meas   0.260  model   0.269  (+3%)
+     track length antero    meas  17.500  model  18.221  (+4%)
+     track length retro     meas  20.000  model  22.725  (+14%)
+     reversal freq          meas   1.500  model   1.551  (+3%)
+     seg speed antero       meas   1.350  model   1.191  (-12%)
+     seg speed retro        meas   1.500  model   1.347  (-10%)
+     pause freq pooled      meas   3.100  model   2.802  (-10%)
+
+Lyso+APPswe   reference vector 0.0250 -> best 0.0250 (reference vector kept)   rms 4.6%
+   va 1.262 vr 2.178 | kap 0.28 kpa 0.111 krp 4 kpr 0.841 kpd 0.121 kdp 7.18 kds 0.000789 ksd 4.11e-06
+   occupancy 0.082 0.043 0.206 0.003 0.665   v_eff (analytic) +0.0091 um/s
+     time antero            meas   0.297  model   0.266  (-11%)
+     time retro             meas   0.291  model   0.297  (+2%)
+     time pause             meas   0.412  model   0.438  (+6%)
+     tracks antero          meas   0.160  model   0.161  (+0%)
+     tracks stationary      meas   0.670  model   0.673  (+1%)
+     tracks retro           meas   0.170  model   0.166  (-2%)
+     track length antero    meas  21.000  model  20.195  (-4%)
+     track length retro     meas  14.000  model  14.379  (+3%)
+     reversal freq          meas   1.050  model   1.086  (+3%)
+     seg speed antero       meas   1.350  model   1.262  (-7%)
+     seg speed retro        meas   1.050  model   1.045  (-0%)
+     pause freq pooled      meas   3.200  model   3.084  (-4%)
+
+Retrograde entry, APPswe condition / control (best refits; range over candidates within 1.5x of each best)
+   Rab5      kpr ratio 2.30 (range 1.26-4.97 over 35 pairs) | event flux kpr*piP ratio 1.27 (range 0.71-1.66)
+             reference vectors: kpr ratio 2.43, flux ratio 1.13
+   lysosomes kpr ratio 4.11 (range 4.02-4.11 over 2 pairs) | event flux kpr*piP ratio 3.37 (range 3.26-3.37)
+             reference vectors: kpr ratio 4.02, flux ratio 3.26
+   APP kpr ratio: refit 0.26 (reference 0.27)
+
+Spatial predictions at t1/2 = 3.63 h
+   measured: areas APPwt 56.0/43.0, APPswe 54.0/34.0; lengths 379, 216 um; ratios 0.964, 0.791
+   reference vectors            ell   3620 /    82 um | areas 76.9/74.8, 45.0/13.3 | ratios 0.585 0.177 | J/C 0.1920 / 0.0043 um/s (ratio 0.023)
+   population-consistent refit  ell   2385 /    49 um | areas 76.4/73.3, 33.4/4.4 | ratios 0.438 0.060 | J/C 0.1265 / 0.0026 um/s (ratio 0.021)
+   population-consistent chains refitted at 3.63 h, re-evaluated at other half-lives (composition re-derived):
+     t1/2  0.50 h  ell    365 /    16 um  distal ratio 0.000
+     t1/2  1.00 h  ell    691 /    22 um  distal ratio 0.003
+     t1/2  2.00 h  ell   1336 /    33 um  distal ratio 0.017
+     t1/2  3.63 h  ell   2385 /    49 um  distal ratio 0.060
+     t1/2  8.00 h  ell   5196 /    92 um  distal ratio 0.211
+     t1/2 24.00 h  ell  15485 /   244 um  distal ratio 0.549

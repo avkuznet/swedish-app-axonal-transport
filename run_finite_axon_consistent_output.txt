@@ -1,0 +1,6 @@
+terminal mode lengths: APPwt 6.3 um, APPswe 10.7 um; soma mode 2385 / 49 um; balance 2.1e-05 1.0e-03
+Lax  250 um: largest relative change of a window area 2.6600
+Lax  300 um: largest relative change of a window area 0.0253
+Lax  400 um: largest relative change of a window area 0.0000
+Lax  500 um: largest relative change of a window area 0.0000
+Lax 1000 um: largest relative change of a window area 0.0000

@@ -1,0 +1,29 @@
+P211  reference vectors under corrected observation rules   2026-11-13 00:39   MATLAB 26.1.0.3276743 (R2026a) Update 3
+
+(1,2) condition | unclassified | objective: original, exhaustive, pooled+exhaustive | rms % (same)
+   APPwt         0.014   0.1026 0.1005 0.1005   8.9 8.8 8.8   (pooled model: L 19.39 um, pauses 2.03 /10 s)
+   APPswe        0.021   0.0586 0.0587 0.0587   6.7 6.7 6.7   (pooled model: L 10.20 um, pauses 2.72 /10 s)
+   Rab5          0.142   0.0723 0.0723 0.0548   8.5 8.5 8.3   (pooled model: L 4.03 um, pauses 3.79 /10 s)
+   Rab5+APPswe   0.196   0.1731 0.1731 0.1386   13.2 13.2 13.2   (pooled model: L 4.24 um, pauses 3.18 /10 s)
+   Lyso+APPwt    0.011   0.0986 0.0984 0.0702   8.7 8.7 7.6   (pooled model: L 20.24 um, pauses 2.83 /10 s)
+   Lyso+APPswe   0.007   0.0709 0.0706 0.0250   7.4 7.4 4.6   (pooled model: L 16.97 um, pauses 3.08 /10 s)
+
+(3) stationary distribution of the chain vs open-population composition (t1/2 = 3.63 h)   [A R P D S]
+   APPwt         chain 0.262 0.090 0.103 0.196 0.350    open 0.399 0.136 0.156 0.298 0.011 
+   APPswe        chain 0.068 0.066 0.093 0.059 0.714    open 0.158 0.152 0.215 0.136 0.339 
+   Rab5          chain 0.236 0.320 0.267 0.031 0.146    open 0.283 0.283 0.269 0.031 0.135 
+   Rab5+APPswe   chain 0.290 0.371 0.124 0.152 0.063    open 0.291 0.370 0.124 0.152 0.062 
+   Lyso+APPwt    chain 0.085 0.138 0.254 0.032 0.491    open 0.183 0.231 0.523 0.053 0.011 
+   Lyso+APPswe   chain 0.082 0.043 0.206 0.003 0.665    open 0.216 0.113 0.538 0.009 0.125 
+
+   APP movies sampled from the open population (no refit): whole-track classes and objective
+   APPwt   chain-sampled  A/S/R 0.471 0.360 0.169  obj 0.1005 | open-population  A/S/R 0.726 0.012 0.262  obj 1.5421  (measured 0.45 0.36 0.19)
+   APPswe  chain-sampled  A/S/R 0.116 0.776 0.108  obj 0.0587 | open-population  A/S/R 0.281 0.467 0.252  obj 4.3155  (measured 0.11 0.78 0.11)
+
+   slow rates of the reference vectors relative to lam = 5.30e-05 1/s
+   APPwt         kpd 2.34e+00 kdp 1.23e+00 kds 1.92e-06 ksd 1.08e-06   (ksd/lam 0.0203, kds/lam 0.0362)
+   APPswe        kpd 1.64e-02 kdp 2.57e-02 kds 1.67e-04 ksd 1.38e-05   (ksd/lam 0.26, kds/lam 3.15)
+   Rab5          kpd 1.26e-03 kdp 1.07e-02 kds 4.58e-03 ksd 9.87e-04   (ksd/lam 18.6, kds/lam 86.3)
+   Rab5+APPswe   kpd 1.42e+00 kdp 1.16e+00 kds 1.83e-03 ksd 4.42e-03   (ksd/lam 83.3, kds/lam 34.5)
+   Lyso+APPwt    kpd 3.26e-05 kdp 2.61e-04 kds 1.10e-05 ksd 7.15e-07   (ksd/lam 0.0135, kds/lam 0.208)
+   Lyso+APPswe   kpd 1.21e-01 kdp 7.18e+00 kds 7.89e-04 ksd 4.11e-06   (ksd/lam 0.0775, kds/lam 14.9)
